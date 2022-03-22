@@ -1,0 +1,8 @@
+example-code-login-socket.py file is example how to work with Better tomorrow V2 API
+Please take notice this not a secure way and it's not recommended to work this way outside the development environment
+
+pre-requirements are:
+Python 3.6+
+pip install requests json socktio websocket-client
+
+run commend: python3.7 example-code-login-socket.py
