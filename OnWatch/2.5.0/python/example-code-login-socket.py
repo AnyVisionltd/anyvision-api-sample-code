@@ -1,13 +1,11 @@
 import requests
 import socketio
-import json
 import threading
 
 
-# SERVER_IP = "kong.tls.ai" // REPLACE WITH SERVER IP OR RESOLVED DNS
-SERVER_IP = "44.199.117.39" # REPLACE WITH SERVER IP OR RESOLVED DNS
-USERNAME = "Administrator"
-PASSWORD = "pa$$word!"
+SERVER_IP = "kong.tls.ai" # REPLACE WITH SERVER IP OR RESOLVED DNS
+USERNAME = "<username>"
+PASSWORD = "<password>"
 
 BASE_API_URL = f'https://{SERVER_IP}/bt/api'
 HEADERS = {

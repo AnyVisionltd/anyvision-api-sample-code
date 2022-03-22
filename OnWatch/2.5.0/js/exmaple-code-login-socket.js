@@ -4,10 +4,9 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const { io } = require("socket.io-client");
 const axios = require('axios')
 
-// const SERVER_IP = "kong.tls.ai" // REPLACE WITH SERVER IP OR RESOLVED DNS
-const SERVER_IP = "44.199.117.39" // REPLACE WITH SERVER IP OR RESOLVED DNS
-const USERNAME = "Administrator"
-const PASSWORD = "pa$$word!"
+const SERVER_IP = "kong.tls.ai" // REPLACE WITH SERVER IP OR RESOLVED DNS
+const USERNAME = "<passowrd>"
+const PASSWORD = "<uername>"
 
 const instance = axios.create({ baseURL: `https://${SERVER_IP}/bt/api` })
 
